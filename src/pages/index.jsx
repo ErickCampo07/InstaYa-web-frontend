@@ -55,6 +55,10 @@ export const appRoutes = [
 								element: <ProtectedRoute route={<NewRequest />} />,
 								action: newRequestAction,
 							},
+							{
+								path: 'serviceNumber',
+								element: <ProtectedRoute route={<UpdateRequest/>} />,
+							},
 						],
 					},
 				],
